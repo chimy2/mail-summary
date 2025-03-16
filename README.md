@@ -1,54 +1,49 @@
-# Mail Summary
-Open AI API를 이용한 메일 요약 서비스 프로젝트입니다.
+# 🌟 웨-일이 쉽지? (Whale Mail)
 
-### git 저장소 연결하기
+## 📌 프로젝트 개요
 
----
+**WhaleMail**은 NAVER Mail 및 Gmail에서 **메일을 요약하고 체크리스트를 생성하는** 크롬 확장 프로그램입니다. **OpenAI API** (ChatGPT)를 연동하여 메일 내용을 **고품질로 요약**하고, 중요한 항목들을 **체크리스트 형태로 관리**할 수 있는 기능을 제공합니다. 사용자는 수많은 이메일을 **더 효율적으로 처리**할 수 있습니다.
 
-#### 1. 원하는 디렉토리에 저장소 불러오기
-- git clone <원격 저장소 주소> .
-1. 원하는 디렉토리 경로로 git bash를 연다
-2. 원격 저장소 주소는 가져오고 싶은 github 저장소 메인 페이지를 열고 <> code 클릭 > url을 복사해서 가져온다
-3. 위 명령어를 입력하고 <원격 저장소 주소> 자리에 해당 주소를 붙여넣는다(마우스 우클릭 > 붙여넣기)
-- . : 현재 디렉토리에 원격 저장소 내용을 불러옴
+## 🎯 기획 의도 및 목표 
+- **메일 내용 요약** 및 **중요 항목 체크리스트 생성**  
+- **OpenAI API**를 활용한 **고품질 메일 요약 서비스** 제공  
+- **사용자 친화적인 크롬 확장 프로그램** 개발  
+- **NAVER Mail**과 **Gmail** 지원  
 
-#### 2. elipse에서 해당 .git이 있는 디렉토리를 열고 프로젝트 불러오기
-1. Project Explorer 우클릭 > Import 클릭
-2. General > Existing Projects Into WorkSpace > Selected root directory > Browse > 해당 디렉토리 선택
-3. Select All로 모든 Projects 선택 > Finish
+## 📅 프로젝트 기간
 
----
+-   **2024.09.02 \~ 2024.09.24**
 
-### 로컬 저장소에서 원격 저장소에 올리기
+## 👨‍💻 개발 인원
 
----
+-   **3명**
 
-1. git add로 staging area에 올린다
-2. git commit으로 로컬 저장소에 저장한다(커밋 메세지 포함)
-3. git pull(원격 저장소에 자신의 저장내용을 올리기 전에 원격저장소에 있는 내용을 받아옴)
-4. git push(로컬저장소(자신의 컴퓨터)에 있는 내용을 저장함)
+## 🛠 개발 환경
 
+-   **운영체제**: Windows 11, Mac OS
+-   **개발 툴**: Visual Studio Code, Eclipse (2022-06)
+-   **협업 툴**: GitHub, Notion, Discord, Draw.io, Figma, Google Drive
 
-#### 1. 로컬  저장소의 내용을 추가 staging area에 올림
-- git add .
-- 이 때 git status로 본인이 올릴 파일 목록을 확인
-- staging area에 올라간 목록을 초기화하고 싶다면 git reset
+## 💻 사용 기술
+
+-   **프로그래밍 언어**: JavaScript ES6, HTML, CSS
+-   **프레임워크 및 라이브러리**:
+    -   Chrome Extension API, SASS, OpenAI API
 
 
-#### 2. 로컬 저장소에 저장할 소스를 진짜 저장한다
-- git commit -m "원하는 메세지"
-- 자신의 컴퓨터의 내용을 기록함
+## 🚀 주요 기능
 
+✅ **메일 내용 요약**  
+- **ChatGPT API**를 활용하여 **메일 내용을 고품질로 요약**  
+- 요약된 내용은 **간결하고 핵심적인 정보**만을 제공합니다  
 
-#### 3. 원격 저장소의 저장내용을 받아온다
-- git pull
-- conflict가 나면 해당 파일을 확인해서 꺽쇄 안에 내용을 비교해서 저장하고 로컬 저장소에 저장
+✅ **체크리스트 생성 및 관리**  
+- 메일에서 **중요 항목을 자동 추출**하여 **체크리스트로 변환**  
+- 체크리스트 항목을 **관리하고 수정**할 수 있는 기능 제공  
 
+✅ **지원하는 메일 서비스**  
+- **NAVER Mail** 및 **Gmail**에서 지원  
+- 각 서비스에 맞춘 **최적화된 UI 및 기능 제공**  
 
-#### 4. 원격 저장소에 로컬 저장소의 내용을 저장한다
-- git push
-
----
-
-##### Git 참고 자료
-- https://training.github.com/downloads/ko/github-git-cheat-sheet/
+✅ **사용자 친화적인 UI**  
+- 직관적이고 사용하기 쉬운 **인터페이스**로 메일 요약과 체크리스트 관리  
